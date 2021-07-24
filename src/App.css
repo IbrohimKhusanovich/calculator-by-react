@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.body-calculator {
+  width: 600px;
+  height: 550px;
+  max-width: 90vw;
+  max-height: 100%;
+  position: relative;
+  border: 1px solid;
+}

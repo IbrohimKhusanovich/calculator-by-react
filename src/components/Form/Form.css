@@ -1,0 +1,13 @@
+.form-block{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+}
+.form-block input{
+ width: 80%;
+ margin:auto;
+}
+.form-block label{
+ margin:0 auto;
+ margin-top: 2rem;
+}

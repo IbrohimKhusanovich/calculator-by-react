@@ -1,0 +1,24 @@
+.btn-grid{
+ display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 0 7%;
+margin-top: 2rem;
+}
+*{
+ font-size: 20px;
+}
+.btn-grid button{
+ width: 130px;
+ margin-top: 2rem;
+}
+
+@media screen and (max-width:380px) {
+*{
+ font-size: 15px;
+
+}
+.btn-grid button{
+ margin-top: 1rem;
+}
+}
