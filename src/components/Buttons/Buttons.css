@@ -13,12 +13,19 @@ margin-top: 2rem;
  margin-top: 2rem;
 }
 
-@media screen and (max-width:380px) {
+@media screen and (max-width:510px) {
 *{
- font-size: 15px;
-
+ font-size: 20px;
 }
 .btn-grid button{
  margin-top: 1rem;
 }
+.btn-grid{
+ margin-top: 12px;
+}
+}
+@media screen and (max-width:337px) {
+ *{
+  font-size: 15px;
+ }
 }
